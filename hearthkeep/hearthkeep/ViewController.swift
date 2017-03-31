@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     @IBAction func grabNewImage(_ sender: AnyObject) {
         setUIEnabled(false)
-        getImageFromFlickr()
+        getCardFromHearthstone()
     }
     
     // MARK: Configure UI
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     
     // MARK: Make Network Request
     
-    private func getImageFromFlickr() {
+    private func getCardFromHearthstone() {
         
         let methodParameters = [
             // Constants.HSParameterKeys.Method: Constants.HSParameterValues.GETMethod,
@@ -72,14 +72,14 @@ class ViewController: UIViewController {
                 // there was data returned
                 if let data = data {
                     
-                    let parsedResult: [String:AnyObject]!
-                    do {
-                        parsedResult = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! [String:AnyObject]
-                        print("count",parsedResult.count)
-                    } catch {
-                        displayError("Could not parse the data as JSON: '\(data)'")
-                        return
-                    }
+//                    let parsedResult: [String:AnyObject]!
+//                    do {
+//                        parsedResult = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! [String:AnyObject]
+//                        print("count",parsedResult.count)
+//                    } catch {
+//                        displayError("Could not parse the data as JSON: '\(data)'")
+//                        return
+//                    }
                     let parsedHearthstoneJSON = try! JSONSerialization.jsonObject(with: data, options: .allowFragments) as! NSDictionary
                     
                     // Basic Cards

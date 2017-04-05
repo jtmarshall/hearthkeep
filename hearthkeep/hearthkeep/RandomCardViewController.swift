@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RandomCardViewController.swift
 //  hearthkeep
 //
 //  Created by Jordan  on 3/31/17.
@@ -10,7 +10,7 @@ import UIKit
 
 // MARK: - ViewController: UIViewController
 
-class ViewController: UIViewController {
+class RandomCardViewController: UIViewController {
     
     // MARK: Outlets
     

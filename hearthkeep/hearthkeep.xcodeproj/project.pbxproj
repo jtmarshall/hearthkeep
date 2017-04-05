@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091B59DD1E959BC3000A4481 /* allCards.json in Resources */ = {isa = PBXBuildFile; fileRef = 091B59DC1E959BC3000A4481 /* allCards.json */; };
 		096ED2F31E8EAAFB0015F186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096ED2F21E8EAAFB0015F186 /* AppDelegate.swift */; };
 		096ED2F51E8EAAFB0015F186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096ED2F41E8EAAFB0015F186 /* ViewController.swift */; };
 		096ED2F81E8EAAFB0015F186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096ED2F61E8EAAFB0015F186 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091B59DC1E959BC3000A4481 /* allCards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = allCards.json; path = Assets.xcassets/allCards.json; sourceTree = "<group>"; };
 		096ED2EF1E8EAAFB0015F186 /* hearthkeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hearthkeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		096ED2F21E8EAAFB0015F186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		096ED2F41E8EAAFB0015F186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				096ED2F41E8EAAFB0015F186 /* ViewController.swift */,
 				096ED2F61E8EAAFB0015F186 /* Main.storyboard */,
 				096ED2FC1E8EAAFB0015F186 /* Assets.xcassets */,
+				091B59DC1E959BC3000A4481 /* allCards.json */,
 				096ED2FE1E8EAAFB0015F186 /* LaunchScreen.storyboard */,
 				096ED3011E8EAAFB0015F186 /* Info.plist */,
 				096ED2F91E8EAAFB0015F186 /* hearthkeep.xcdatamodeld */,
@@ -247,6 +250,7 @@
 				096ED3001E8EAAFB0015F186 /* LaunchScreen.storyboard in Resources */,
 				096ED2FD1E8EAAFB0015F186 /* Assets.xcassets in Resources */,
 				096ED2F81E8EAAFB0015F186 /* Main.storyboard in Resources */,
+				091B59DD1E959BC3000A4481 /* allCards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
